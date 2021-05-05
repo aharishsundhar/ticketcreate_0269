@@ -1,0 +1,19 @@
+<h2 class="screen-align">Addtickets</h2>
+<div id="template-ihbf" class="row">
+    <div id="template-ij3p" class="cell">
+        <label id="template-ig7c" class="label">Name</label>
+        <input id="template-ingf" [(ngModel)]="tickets.name" [ngModelOptions]="{standalone: true}"
+        class="input form-control" />
+        <button id="template-igjmq" (click)="GpCreate()" class="button btn btn-primary">Send</button>
+    </div>
+    <div id="template-i1tr" class="cell">
+        <label id="template-iaor" class="label">Description</label>
+        <input id="template-i0ai" [(ngModel)]="tickets.description"
+        [ngModelOptions]="{standalone: true}" class="input form-control" />
+    </div>
+    <div id="template-i0cj" class="cell">
+        <label id="template-iyhj" class="label">Groups</label>
+        <input id="template-i4dyg" [(ngModel)]="tickets.groups"
+        [ngModelOptions]="{standalone: true}" class="input form-control" />
+    </div>
+</div>
